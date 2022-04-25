@@ -148,6 +148,48 @@ ORDER BY SalesOrderID DESC;
 SELECT PurchaseOrderID, EmployeeID FROM Purchasing.PurchaseOrderHeader
 WHERE PurchaseOrderID IN
 (
-	SELECT PurchaseOrderID FROM Purchasing.PurchaseOrderDetail WHERE PurchaseOrderDetailID > 5
+	SELECT PurchaseOrderID FROM Purchasing.PurchaseOrderDetail WHERE PurchaseOrderDetailID > 5 
 )
+
+
+--UNION (Remove Duplicates)
+
+SELECT BusinessEntityID FROM HumanResources.Employee
+	UNION
+SELECT BusinessEntityID FROM Person.Person
+	UNION
+SELECT CustomerID FROM Sales.Customer
+
+
+
+--UNION ALL (Doesnt Remove Duplicates)
+
+SELECT BusinessEntityID FROM HumanResources.Employee
+	UNION ALL
+SELECT BusinessEntityID FROM Person.Person
+	UNION ALL
+SELECT CustomerID FROM Sales.Customer
+ 
+
+
+-- JOIN/INNER JOIN
+
+SELECT pod.PurchaseOrderID, pod.PurchaseOrderDetailID,poh.OrderDate 
+FROM Purchasing.PurchaseOrderDetail pod
+	INNER JOIN
+Purchasing.PurchaseOrderHeader poh
+ON pod.PurchaseOrderID = poh.PurchaseOrderID
+
+
+-- LEFT JOIN(Returns Values From Right table if there's a Match and Return Null Valeus on the Right Table if there's no match)
+
+SELECT * FROM Person.Person
+SELECT * FROM Person.BusinessEntityAddress;
+
+SELECT p.BusinessEntityID, p.FirstName, p.lastName , bea.BusinessEntityID, bea.AddressID
+FROM Person.Person p 
+	LEFT JOIN
+Person.BusinessEntityAddress bea
+ON p.BusinessEntityID = bea.BusinessEntityID
+
 
