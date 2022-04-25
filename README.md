@@ -18,7 +18,7 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > QuerySelectionOrder is `FROM->WHERE->SELECT`.
 
-> Filteringn a List, it is better to use `IN` operator and passed in the filter keys rather than using the `OR` operator. 
+> Filtering a List, it is better to use `IN` operator and passed in the filter keys rather than using the `OR` operator. 
 
 > Use Underscore to define a length of character, example, `A____`, this return a names with length of 5. 
 
@@ -32,3 +32,9 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > The `SQL` will then select in order of `FROM->WHERE->GROUP BY->HAVING->SELECT->ORDER BY`.
 
+> `UNION` will remove `duplicates`, but `UNION ALL` will not remove duplicates, both does the same thing.
+
+
+> Combining Multiple Tables we use `UNION`;
+
+> Combining Multiple Columns we use the `JOIN` Operator. 
