@@ -38,3 +38,6 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 > Combining Multiple Rows we use `UNION`;
 
 > Combining Multiple Columns we use the `JOIN/INNER JOIN` Operator. 
+
+> `LEFT JOIN` (Returns Values From Right table if there's a Match and Return Null Valeus on the Right Table if there's no match).
+
