@@ -35,6 +35,6 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 > `UNION` will remove `duplicates`, but `UNION ALL` will not remove duplicates, both does the same thing.
 
 
-> Combining Multiple Tables we use `UNION`;
+> Combining Multiple Rows we use `UNION`;
 
-> Combining Multiple Columns we use the `JOIN` Operator. 
+> Combining Multiple Columns we use the `JOIN/INNER JOIN` Operator. 
