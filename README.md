@@ -1,6 +1,5 @@
-
-
-### Schema.
+# SQL-Crash-Course.-
+Complete SQL Server Crash Course using Microsoft SQL Server. ### Schema.
 
 > Database Schema Consist of other Dictionary objects such as tables and indices, it's provide a way to name a subset of tables and other dictionary objects within a database. 
 
