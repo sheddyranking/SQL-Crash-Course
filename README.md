@@ -29,14 +29,3 @@ Complete SQL Server Crash Course using Microsoft SQL Server. ### Schema.
 
 > The `SQL` will then select in order of `FROM->WHERE->GROUP BY->HAVING->SELECT->ORDER BY`.
 
-
-
-
-
-
-
-
-
-
-
-
