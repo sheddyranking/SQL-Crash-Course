@@ -1,5 +1,10 @@
 # SQL-Crash-Course.-
-Complete SQL Server Crash Course using Microsoft SQL Server. ### Schema.
+Complete SQL Server Crash Course using Microsoft SQL Server. 
+
+Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?ranMID=43674&ranEAID=rl2xnKiLcHs&ranSiteID=rl2xnKiLcHs-ff4AEOnHME3xoBnpdsMcHA&epi=rl2xnKiLcHs-ff4AEOnHME3xoBnpdsMcHA&irgwc=1&OCID=AID2200057_aff_7795_1243925&tduid=(ir__wuhzgjt3cckf6xctdot6rgrj6n2xtbwc0j2dwlik00)(7795)(1243925)(rl2xnKiLcHs-ff4AEOnHME3xoBnpdsMcHA)()&irclickid=_wuhzgjt3cckf6xctdot6rgrj6n2xtbwc0j2dwlik00&view=sql-server-ver15&tabs=ssms
+
+
+### Schema.
 
 > Database Schema Consist of other Dictionary objects such as tables and indices, it's provide a way to name a subset of tables and other dictionary objects within a database. 
 
