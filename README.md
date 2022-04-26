@@ -48,6 +48,7 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 >`RIGHT JOIN` is the same as `RIGHT OUTER JOIN`.
 
+> `FULL OUTER JOIN` (is a combination of `RIGHT JOIN` AND `LEFT JOIN`).
 
 
 
