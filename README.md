@@ -43,6 +43,12 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `RIGHT JOIN` (Returns Values From left table if there's a Match and Return Null Valeus on the left Table if there's no match).
 
+#### NOTE:
+> `LEFT JOIN ` is same as `LEFT OUTER JOIN`.
+
+>`RIGHT JOIN` is the same as `RIGHT OUTER JOIN`.
+
+
 
 
 
