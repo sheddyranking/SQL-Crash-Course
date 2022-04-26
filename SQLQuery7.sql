@@ -192,4 +192,23 @@ FROM Person.Person p
 Person.BusinessEntityAddress bea
 ON p.BusinessEntityID = bea.BusinessEntityID
 
+-- RIGHT JOIN(Returns Values From Left table if there's a Match and Return Null Valeus on the Left Table if there's no match)
+
+SELECT * FROM Person.Person
+SELECT * FROM Person.BusinessEntityAddress;
+
+SELECT p.BusinessEntityID, p.FirstName, p.lastName , bea.BusinessEntityID, bea.AddressID
+FROM Person.Person p 
+	RIGHT JOIN
+Person.BusinessEntityAddress bea
+ON p.BusinessEntityID = bea.BusinessEntityID
+
+--FULL OUTER JOIN (is a combination of RIGHT JOIN AND LEFT JOIN).
+
+SELECT p.BusinessEntityID, p.FirstName, p.lastName , bea.BusinessEntityID, bea.AddressID
+FROM Person.Person p 
+	 FULL OUTER JOIN 
+Person.BusinessEntityAddress bea
+ON p.BusinessEntityID = bea.BusinessEntityID
+
 
