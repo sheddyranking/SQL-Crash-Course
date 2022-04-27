@@ -66,4 +66,4 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `Update`: When updating a Record Ensure to add a `WHERE` clause, else all the `Columns`,`Rows` will be updated. 
 
-> `ALTER` Statement enables deleting,updating etc of columns.
+> `ALTER` Statement enables adding,deleting,updating dataTypes etc of columns.
