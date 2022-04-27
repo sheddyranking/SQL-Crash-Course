@@ -62,5 +62,7 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `Datetime`: only takes in the format of `YYYY/MM/DD`.
 
+> If you wish to change the DateFormat ensure to add `set dateformat dmy` at the top of the `Insert` file.
+
 
 
