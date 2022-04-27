@@ -50,6 +50,8 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `FULL OUTER JOIN` (is a combination of `RIGHT JOIN` AND `LEFT JOIN`).
 
+> When you create a table without SCHEMA name, it authomatically creates a SCHEMA name for you. 
+
 
 
 
