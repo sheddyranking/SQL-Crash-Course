@@ -52,6 +52,6 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > When you create a table without SCHEMA name, it authomatically creates a SCHEMA name for you. 
 
+> `UNIQUE`Contraint Makes sure every Item in the Table is Unique. also every Column can hava  a `UNIQUE` contraint. 
 
-
-
+> `PRIMARY KEY` Enables Unique contriant in a Record and also prevent `DUPLICATE` Values and `NULL` Values. 
