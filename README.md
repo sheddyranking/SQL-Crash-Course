@@ -64,5 +64,6 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > If you wish to change the DateFormat ensure to add `set dateformat dmy` at the top of the `Insert` file.
 
+> `Update`: When updating a Record Ensure to add a `WHERE` clause, else all the `Columns`,`Rows` will be updated. 
 
 
