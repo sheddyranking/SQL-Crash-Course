@@ -60,4 +60,7 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 `Foreign Key`: this a Key from the Child Table that `References` to the `Primary Key` of the Parent table. 
 
+> `Datetime`: only takes in the format of `YYYY/MM/DD`.
+
+
 
