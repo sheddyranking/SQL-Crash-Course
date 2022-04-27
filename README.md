@@ -54,4 +54,5 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `UNIQUE`Contraint Makes sure every Item in the Table is Unique. also every Column can hava  a `UNIQUE` contraint. 
 
-> `PRIMARY KEY` Enables Unique contriant in a Record and also prevent `DUPLICATE` Values and `NULL` Values. 
+> `PRIMARY KEY` Enables Unique contriant in a Record and also prevent `DUPLICATE` Values and `NULL` Values. This also help to maintain `entity integrity`, and this enable in relating them to other tables.
+ 
