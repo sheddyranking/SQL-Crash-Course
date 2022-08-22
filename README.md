@@ -67,3 +67,5 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 > `Update`: When updating a Record Ensure to add a `WHERE` clause, else all the `Columns`,`Rows` will be updated. 
 
 > `ALTER` Statement enables adding,deleting,updating dataTypes etc of Tables and Columns.
+
+> `CTEs`- CommoN Table Expression allows you to define a temporary named result set that available temporarily in the execution scope of a statement such as SELECT, INSERT, UPDATE, DELETE, or MERGE . i.e, CTEs helps to simply a query they work as virtual tables (with records and columns), created during the execution of a query, used by the query, and eliminated after query execution.
