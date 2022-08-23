@@ -43,12 +43,12 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `RIGHT JOIN` (Returns all records from the right table, and the matched records from the left table). 
 
+> `FULL OUTER JOIN` (Returns all records when there is a match in either left or right table). 
+
 #### NOTE:
 > `LEFT JOIN ` is same as `LEFT OUTER JOIN`.
 
 >`RIGHT JOIN` is the same as `RIGHT OUTER JOIN`.
-
-> `FULL OUTER JOIN` (Returns all records when there is a match in either left or right table). 
 
 > When you create a table without SCHEMA name, it authomatically creates a SCHEMA name for you. 
 
