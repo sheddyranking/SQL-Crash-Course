@@ -45,6 +45,8 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 > `FULL OUTER JOIN` (Returns all records when there is a match in either left or right table). 
 
+
+
 #### NOTE:
 > `LEFT JOIN ` is same as `LEFT OUTER JOIN`.
 
