@@ -35,9 +35,9 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 > `UNION` will remove `duplicates`, but `UNION ALL` will not remove duplicates, both does the same thing.
 
 
-> Returns the result set in two or more select statements excluding the duplicates. `UNION`;
+> `UNION`: Returns the result set in two or more select statements excluding the duplicates.;
 
-> Returns records that have matching values in both tables INNER JOIN`. 
+> `INNER JOIN` Returns records that have matching values in both tables. 
 
 > `LEFT JOIN` (Returns all records from the left table, and the matched records from the right table).
 
