@@ -35,20 +35,20 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 > `UNION` will remove `duplicates`, but `UNION ALL` will not remove duplicates, both does the same thing.
 
 
-> Combining Multiple Rows we use `UNION`;
+> Returns the result set in two or more select statements excluding the duplicates. `UNION`;
 
-> Combining Multiple Columns we use the `JOIN/INNER JOIN` Operator. 
+> Returns records that have matching values in both tables INNER JOIN`. 
 
-> `LEFT JOIN` (Returns Values From Right table if there's a Match and Return Null Valeus on the Right Table if there's no match).
+> `LEFT JOIN` (Returns all records from the left table, and the matched records from the right table).
 
-> `RIGHT JOIN` (Returns Values From left table if there's a Match and Return Null Valeus on the left Table if there's no match).
+> `RIGHT JOIN` (Returns all records from the right table, and the matched records from the left table). 
 
 #### NOTE:
 > `LEFT JOIN ` is same as `LEFT OUTER JOIN`.
 
 >`RIGHT JOIN` is the same as `RIGHT OUTER JOIN`.
 
-> `FULL OUTER JOIN` (is a combination of `RIGHT JOIN` AND `LEFT JOIN`).
+> `FULL OUTER JOIN` (Returns all records when there is a match in either left or right table). 
 
 > When you create a table without SCHEMA name, it authomatically creates a SCHEMA name for you. 
 
@@ -58,7 +58,7 @@ Download adventureSample2019  DATABASE HERE:  https://docs.microsoft.com/en-us/s
 
 #### Entity Relation:
 
-`Foreign Key`: this a Key from the Child Table that `References` to the `Primary Key` of the Parent table. 
+`Foreign Key`: this is a Key from the Child Table that `References` to the `Primary Key` of the Parent table. 
 
 > `Datetime`: only takes in the format of `YYYY/MM/DD`.
 
